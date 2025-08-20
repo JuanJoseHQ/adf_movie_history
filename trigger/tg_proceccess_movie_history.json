@@ -1,0 +1,29 @@
+{
+	"name": "tg_proceccess_movie_history",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_process_movie_history",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"p_enviroment": "Production",
+					"p_file_date": "2024-12-30"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2025-08-20T16:26:15",
+				"endTime": "2025-08-21T21:14:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}

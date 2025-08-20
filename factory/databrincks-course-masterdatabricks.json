@@ -1,0 +1,9 @@
+{
+	"name": "databrincks-course-masterdatabricks",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1d253da1-4966-4a19-9378-6fb20b86cb88",
+		"tenantId": "a2ba4345-7764-4d22-b6a1-7cf528f3b3a5"
+	}
+}
